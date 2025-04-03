@@ -14,32 +14,45 @@
     </head>
     <body>   
         
-        <div class="container">            
-            <nav class="navbar bg-secondary">
-                <button class="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><span class="navbar-toggler-icon"></span> </button>
-                <a class="navbar-brand">GTA</a>
-            </nav>
-            <div class="alert alert-info d-none d-lg-block">Resize your browser to show the responsive offcanvas toggle.</div>
-
+        <nav class="navbar navbar-light bg-light justify-content-start justify-content-lg-center">
+            <button class="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><span class="navbar-toggler-icon"></span> </button>
+            <a href="index.html"><i class="fa-solid fa-gamepad p-2"></i> <a class="navbar-brand">Grand Theft Auto: Vice City</a></a>
+                
+        </nav>
+            
+        <div class="d-flex flex-row">
             <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
+                    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Contents</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                    <p class="mb-0">This is content within an <code>.offcanvas-lg</code>. </p>
-                    <p>links here, (to the left)</p>
-                </div>
+            
+                <div class="offcanvas-body border-right vh-100 p-0">
+                    <div class="list-group list-group-flush overflow-auto h-100">
+                        <a href="gameplay.html" class="list-group-item list-group-item-action bg-light">Gameplay</a>
+                        <a href="plot.html" class="list-group-item list-group-item-action bg-light ">Plot</a>
+                        <a href="development.html" class="list-group-item list-group-item-action bg-light">Development</a>
+                        <a href="reception.html" class="list-group-item list-group-item-action bg-light">Reception</a>
+                        <a href="sales.html" class="list-group-item list-group-item-action bg-light">Sales</a>
+                        <a href="controversies.html" class="list-group-item list-group-item-action bg-light">Controversies</a>
+                        <a href="legacy.html" class="list-group-item list-group-item-action bg-light">Legacy</a>
+                        <a href="notes.html" class="list-group-item list-group-item-action bg-light">Notes</a>
+                        <a href="references.html" class="list-group-item list-group-item-action bg-light">References</a>
+                        <a href="external-links.html" class="list-group-item list-group-item-action bg-light">External links</a>
+                            
+                    </div>
+                </div>                    
             </div>
-
-
+            <div class="d-block">
+                <h1> header </h1>
+                <p>blah blah</p>
+            </div>
+        </div>   
             
-                 
-            
-            <footer>
+        <footer>
            
-            </footer>   
-        </div>
+        </footer>   
+        
         <script>
            
         </script>
